@@ -1,15 +1,20 @@
 return {
   {
-    "catppuccin/nvim",
+    "articblush/articblush.nvim",
     lazy = true,
-    name = "catppuccin",
+    name = "articblush",
+  },
+
+  {
+    "rebelot/kanagawa.nvim",
+    lazy = true,
   },
 
   -- configure LazyVim to load catppuccin
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "catppuccin",
+      colorscheme = "kanagawa",
     },
   },
 }
